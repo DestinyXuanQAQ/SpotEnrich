@@ -20,7 +20,7 @@ A cell-type distribution patterns result(pd.DataFrame): A DataFrame, is the resu
 **result**(pd.Series): A Series indexed by spots, with values representing the classification results of each spot (cell type enrichment, Mix, or Unknown).
 
 ## Run the Function
-In this example, we assume that Microglia are too sparsely distributed, so we need to increase their ‘specific_top_percentages’ value.
+In this example, we assume that Microglia are too sparsely distributed, so we need to increase their ‘specific_top_percentages’ value.   
 ``
 result=SpotEnrich(CellCounts, 
 top_percentage=0.15,  
