@@ -1,5 +1,5 @@
 # SpotEnrich
-SpotEnrich is a Python toolkit for **spatial transcriptomics analysis**, specifically designed to interpret **cell-type distribution patterns** produced by Spatial transcriptomics cell-type deconvolution tools such as [Cell2location](https://github.com/BayraktarLab/cell2location).  And then we can use these spots to run Cell-Cell Communication analysis or other analyses.
+SpotEnrich is a Python toolkit for **spatial transcriptomics analysis**, specifically designed to interpret **cell-type distribution patterns** produced by spatial transcriptomics cell-type deconvolution tools such as [Cell2location](https://github.com/BayraktarLab/cell2location).  And then we can use these spots to run Cell-Cell Communication analysis or other analyses.
 It classifies the spots into three categories: 
 1. **Enrich spots** (defined as the specific celltype spots dominated by a single cell type)
 2. **Mix spot** (containing multiple cell types)
