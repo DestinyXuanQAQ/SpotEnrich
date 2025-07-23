@@ -19,9 +19,10 @@ A cell-type distribution patterns result(pd.DataFrame): A DataFrame, is the resu
 ## Return
 **result**(pd.Series): A Series indexed by spots, with values representing the classification results of each spot (cell type enrichment, Mix, or Unknown).
 
-## Run the Function
+## Run SpotEnrich
 In this example, we assume that we have a cell-type distribution patterns dataframe `CellCounts` and microglial are too sparsely distributed, so we need to increase their `specific_top_percentages` value.   
 Now we use the dictionary `{'Microglia': 0.2}` to set the top-percentage cutoff for Microglia to `0.2`.    
+Make sure the `SpotEnrich.py` is in python work place, and then we can import it.  
 ```
 import SpotEnrich    
 result=SpotEnrich(CellCounts, 
