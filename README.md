@@ -24,7 +24,7 @@ In this example, we assume that we have a cell-type distribution patterns datafr
 Now we use the dictionary `{'Microglia': 0.2}` to set the top-percentage cutoff for Microglia to `0.2`.    
 Make sure the `SpotEnrich.py` is in python work place, and then we can import it.  
 ```
-import SpotEnrich    
+from SpotEnrich import SpotEnrich    
 result=SpotEnrich(CellCounts, 
                   top_percentage=0.15,  
                   specific_top_percentages={'Microglial' : 0.2},  
