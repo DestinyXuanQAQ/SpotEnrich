@@ -41,10 +41,10 @@ result
 ```
 |      | barcode  | Celltype | library_id |
 |  ----  | ----  |  ----  | ----  |
-| 13685861458750  | 50465861458750  | Unknown  | control |
-| 13685861458751  | 50465861458751  | Mix | treatment |
-| 13685861458752  | 50465861458752  | BG | treatment |
-| 13685861458752  | 50465861458753  | Microglial | control |
+| 13685861458750  | 50465861458750  | Unknown  | control_1 |
+| 13685861458751  | 50465861458751  | Mix | control_1 |
+| 13685861458752  | 50465861458752  | BG | control_1 |
+| 13685861458752  | 50465861458753  | Microglial | control_1 |
 
 ```
 # save the result
